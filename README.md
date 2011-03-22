@@ -14,6 +14,6 @@ Including:
 * l10n for 4 languages, with support for browser's location hash
 
 ## Copyright
-(C)Copyright 2011 Xu Lele (Rakuraku Jyo if you know me in Japan). Feel free to drop me by on Twitter [@xu_lele](http://twitter.com/xu_lele). AirTest is released under [MIT license](http://www.opensource.org/licenses/mit-license.php).
+(C)Copyright 2011 Xu Lele (Rakuraku Jyo if you know me in Japan). Feel free to drop me by on Twitter [@xu_lele](http://twitter.com/xu_lele). app4jp is released under [MIT license](http://www.opensource.org/licenses/mit-license.php).
 
 
