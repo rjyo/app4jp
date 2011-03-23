@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<title>iDaily Pro東北関東大震災の募金プロジェクトのご報告</title>
+<title>iDaily Pro - 東北関東大震災の募金プロジェクトのご報告</title>
 
 <link rel="shortcut icon" href="http://www.rakutec.com/wp-content/uploads/2010/10/fav.png" />
 <link rel="stylesheet" href="960gs/reset.css" />
@@ -15,13 +15,13 @@
 <script type="text/javascript" src="tempo/tempo.min.js"></script>
 <script type="text/javascript" src="l10n.js/l10n.min.js"></script>
 <script type="text/javascript" src="localizations.js"></script>
-<script type="text/javascript" src="smb/smb.js"></script>
+<script type="text/javascript" src="smb/smb.js?v1"></script>
 </head>
 <body>
 <div id="top_shadow"></div>
 <div class="container_12">
     <div class="grid_6 logo">
-        <h1 class="l10n" id="title">iDaily Pro東北関東大震災の募金プロジェクトのご報告</h1>
+        <h1 class="l10n" id="title">iDaily Pro - 東北関東大震災の募金プロジェクトのご報告</h1>
 	</div>
     <div class="grid_6 lang">
 		<ul>
@@ -106,7 +106,7 @@
                     <p>lets you dynamically generate charts with a URL string.</p>
                 </li>
                 <li><a class="high" href="http://cielquis.net/smb/">Social Media Buttons</a> by <a href="http://twitter.com/#!/tt_clown">tt_clown</a>
-                    <p>様々な Web サービスが提供しているソーシャル（メディア）ボタンと呼ばれるボタンを表示させるための JavaScript ライブラリです．</p>
+                    <p>a way to insert Social Media Buttons with a line of very simple javascript. I had some style problems with Hatena and etc. though.</p>
                 </li>
             </ul>
         </div>
@@ -164,7 +164,12 @@
            var loc = localize($(node).attr('id'), $(node).html());
            $(node).html(loc);
         });
-        // $("#page_intro").html(localize("%page_intro", $("#page_intro").html()));
+
+        var title = $("#title").text() + " " + $("#desc").text() + " " + $("#amount").text();
+        title = title.replace("*2", "");
+        document.title = title;
+        $("#title").html(title);
+        console.log(document.title);
     }
     
     function loadGraphs(graph_url, graph_container) {
