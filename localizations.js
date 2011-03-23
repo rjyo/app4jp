@@ -6,7 +6,7 @@ String.toLocaleString({
 		"target_amount": "Fundraising Goal：¥1,000,000 ",
 		"amount": "<span>¥</span> 618,526",
 		"desc": "Total amount since 3.21<sup>*2</sup>",
-		"support": "<p>Support us by click the button below <br/>if you also need iDaily Pro</p><a class='button' href='itms://itunes.apple.com/en/app/idaily-pro/id390691023?mt=8#' onclick='this.blur();'><span>Support</span></a>",
+		"support": "<p>Support us by clicking the button below <br/>if you also need iDaily Pro</p><a class='button' href='itms://itunes.apple.com/en/app/idaily-pro/id390691023?mt=8#' onclick='this.blur();'><span>Support</span></a>",
 		"title_report": "Current <span>Progress</span>",
 		"title_user_voice": "<span>Voices</span> of Users #idaily",
 		"title_made_possible": "What Made This <span>Possible</span>",
@@ -40,7 +40,7 @@ String.toLocaleString({
 	},
 	"kr": {
 		"title": "iDaily Pro - 일본 동북대지진 피해자 돕기 기부금 레포트",
-		"page_intro": "<p>3월 11일 14시 46분 경 미야기 현 센다이 동쪽의 산리쿠오키(三陸沖) 해역에서 모멘트 규모 9.0의 강한 지진이 일어났습니다. 아울러, 태평양 연안 지역은 추가로 지진 해일이 강타하여 더욱 큰 피해를 입었습니다. </p><p>일본 지진 피해 주민들을 돕기 위해  본사는 3월 11일부터 3월말까지의 <a href='http://itunes.apple.com/kr/app/idaily-pro/id390691023?mt=8' class='high'>iDaily&nbsp;Pro</a> 의 수입을 전부 기부할것 입니다. 여러분들의 도움과 지원으로 힘이 되여 주셨으면 합니다. </p><p>이번 대지진에 이은 쓰나미로 희생된 일본인들의 명복을 빌며 하루빨리 슬픔과 재난을 극복하길 진심으로 기원합니다.</p>",
+		"page_intro": "<p>3월 11일 14시 46분 경 미야기 현 센다이 동쪽의 산리쿠오키(三陸沖) 해역에서 모멘트 규모 9.0의 강한 지진이 일어났습니다. 아울러, 태평양 연안 지역은 추가로 지진 해일이 강타하여 더욱 큰 피해를 입었습니다. </p><p>일본 지진 피해 주민들을 돕기 위해  본사는 3월 11일부터 3월말까지의 <a href='http://itunes.apple.com/kr/app/idaily-pro/id390691023?mt=8' class='high'>iDaily&nbsp;Pro</a> 의 수입<sup>*1</sup>을 전부 기부할것 입니다. 여러분들의 도움과 지원으로 힘이 되여 주셨으면 합니다. </p><p>이번 대지진에 이은 쓰나미로 희생된 일본인들의 명복을 빌며 하루빨리 슬픔과 재난을 극복하길 진심으로 기원합니다.</p>",
 		"page_sup": "<li>*1 애플사로부터 30% 수수료를 덜어낸후의 금액입니다.</li><li>*2 전날 수입의 금액입니다.</li>",
 		"target_amount": "목표기부금：1,000,000엔",
 		"amount": "618,526<span>엔</span>",
@@ -49,6 +49,6 @@ String.toLocaleString({
 		"title_report": "현재 <span>통계수치</span>",
 		"title_user_voice": "애용자들의 <span>목소리</span> #idaily",
 		"title_made_possible": "<span>이 웹사이트는 이렇게 만들어 졌습니다</span>",
-		"title_comments": "<span>코멘트를</span> 투고",
+		"title_comments": "<span>코멘트</span> 달기",
 	}
 });
