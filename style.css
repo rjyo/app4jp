@@ -185,6 +185,14 @@ ul#page_sup {
   text-shadow: rgba(0, 0, 0, 0.4) 0 1px 0px;
 }
 
+#disqus_thread {
+  margin: 20px 30px;
+}
+
+#disqus_thread h3 {
+  font-size: 16px;
+  line-height: 10px;
+}
 
 /* @end */
 
