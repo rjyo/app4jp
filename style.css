@@ -94,7 +94,7 @@ a.button:active span {
 /* @group Main Content */
 
 .main_left p {
-  font-family: "Times New Roman", Times, serif;
+  font-family: Palatino, "Times New Roman", Times, serif;
   font-size: 19px;
   color: #333;
   line-height: 140%;
@@ -137,7 +137,7 @@ ul#page_sup {
 
 .main_right div {
   text-align: center;
-  font-family: "Times New Roman", Times, serif;
+  font-family: Palatino, "Times New Roman", Times, serif;
   color: #666;
 }
 
@@ -222,7 +222,7 @@ div#tweets li:last-child {
 div#tweets p {
   font-size: 19px;
   color: #666;
-  font-family: "Times New Roman", Times, serif;
+  font-family: Palatino, "Times New Roman", Times, serif;
   margin: 0 20px 10px 0;
 }
 
@@ -336,7 +336,7 @@ hr {
 }
 
 .footer .lib ul li p {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Palatino, "Times New Roman", Times, serif;
   font-weight: normal;
   color: #999;
   font-size: 14px;
