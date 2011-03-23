@@ -187,6 +187,7 @@ ul#page_sup {
 
 #disqus_thread {
   margin: 20px 30px;
+  min-height: 60px;
 }
 
 #disqus_thread h3 {
