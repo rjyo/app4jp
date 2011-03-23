@@ -1,14 +1,14 @@
 String.toLocaleString({
 	"en": {
-		"title": "English Title",
-		"page_intro": "<p>You are viewing an English localization of this page.</p>",
-		"page_sup": "<li>*1 baafasdf</li><li>*2 basfasf</li>",
-		"target_amount": "目標金額：1,000,000円",
+		"title": "Report: Japan Earthquake Fundraising Project through purchasing iDaily Pro",
+		"page_intro": "<p>An 8.9-magnitude earthquake hit off the east coast of Japan on Friday 11 March 2011. The quake triggered a 23-foot tsunami that battered Japan's coast, killing thousands and causing massive destruction to northeastern Japan.To raise funds for the victims of the disaster, the proceeds from iDaily Pro <strong>from 3.11 through 3.31</strong> will be donated to Japanese Red Cross Society.</p><p>We really need your help!</p><p>Let's come together to get them through this difficult time and help them rebuild as soon as possible.</p>",
+		"page_sup": "<li>*1 This is the amount after Apple's 30% cut from the sales.</li><li>*2 Reports are generally available by 10:00 AM PST for the prior day or week</li>",
+		"target_amount": "Fundraising Goal：1,000,000 JPY",
 		"amount": "618,526<span>JPY</span>",
-		"desc": "3月20日現在<sup>*2</sup>お預かりした義援金",
-		"support": "<p>iDaily ProをApp Storeにてご購入頂くことで</p><a class='button' href='itms://itunes.apple.com/en/app/idaily-pro/id390691023?mt=8#' onclick='this.blur();'><span>Support</span></a>",
-		"title_report": "<span>Report</span> of Progress",
-		"title_user_voice": "<span>Voice</span> of Users #idaily",
+		"desc": "Total amount since 3.20<sup>*2</sup>",
+		"support": "<p>Click button below to support</p><a class='button' href='itms://itunes.apple.com/en/app/idaily-pro/id390691023?mt=8#' onclick='this.blur();'><span>Support</span></a>",
+		"title_report": "<span>Current Progress</span>",
+		"title_user_voice": "<span>Voices</span> of Users #idaily",
 		"title_made_possible": "What Made This <span>Possible</span>",
 	},
 	"ja": {
@@ -24,11 +24,27 @@ String.toLocaleString({
 		"title_made_possible": "このページを<span>可能に</span>したのは",
 	},
 	"zh_CN": {
-		"%title": "Español - l10n.js demo",
-		"%info": "Mira ustéd una versión español de esta pagina."
+		"title": "iDaily Pro日本东北大地震募捐统计报告",
+		"page_intro": "<p>2011年3月11日14时46分发生的日本东北地方太平洋近海地震及其引发的海啸已造成东北部沿岸大范围的破坏和伤亡。</p><p>为了支援受灾地区，从3月11日开始到3月底的<a href='http://itunes.apple.com/jp/app/idaily-pro/id390691023?mt=8' class='high'>iDaily&nbsp;Pro</a>的销售额我们将全额捐给日本红十字会，尽我们的微薄之力。</p><p>为地震中遇难的人们祈祷,也祝福幸存者，希",
+		"page_sup": "<li>*1 扣除苹果公司的30%手续费以后的金额。</li><li>*2 显示的是前日的最新统计数字。</li>",
+		"target_amount": "目标募捐金额：1,000,000日元",
+		"amount": "618,526<span>日元</span>",
+		"desc": "截止3月20日的<sup>*2</sup>募捐金额",
+		"support": "<p>想购买iDaily Pro，请点击下面的按钮</p><a class='button' href='itms://itunes.apple.com/ja/app/idaily-pro/id390691023?mt=8#' onclick='this.blur();'><span>购买</span></a>",
+		"title_report": "<span>目前的</span>统计报告",
+		"title_user_voice": "<span>用户</span>之声 #idaily",
+		"title_made_possible": "<span>这个网站由以下的技术实现</span>",
 	},
 	"kr": {
-		"%title": "Français - Démo de l10n.js",
-		"%info": "Vous lisez une localisation en français de cette page."
+		"title": "iDaily Pro 일본 동북대지진 피해자 돕기 기부금 레포트",
+		"page_intro": "<p>3월 11일 14시 46분 경 미야기 현 센다이 동쪽의 산리쿠오키(三陸沖) 해역에서 모멘트 규모 9.0의 강한 지진이 일어났습니다. 아울러, 태평양 연안 지역은 추가로 지진 해일이 강타하여 더욱 큰 피해를 입었습니다. </p><p>일본 지진 피해 주민들을 돕기 위해  본사는 3월 11일부터 3월말까지의 <a href='http://itunes.apple.com/jp/app/idaily-pro/id390691023?mt=8' class='high'>iDaily&nbsp;Pro</a>의 수입을 전부 기부할것 입니다. 여러분들의 도움과 지원으로 힘이 되여 주셨으면 합니다. </p><p>이번 대지진에 이은 쓰나미로 희생된 일본인들의 명복을 빌며 하루빨리 슬픔과 재난을 극복하길 진심으로 기원합니다.</p>",
+		"page_sup": "<li>*1 애플사로부터 30% 수수료를 덜어낸후의 금액입니다.</li><li>*2 전날 수입의 금액입니다.</li>",
+		"target_amount": "목표기부금：1,000,000엔",
+		"amount": "618,526<span>엔</span>",
+		"desc": "3월20부터 현재까지의 <sup>*2</sup>성금",
+		"support": "<p>iDaily Pro를 구입하시려면 아래버튼을 클릭하십시오.</p><a class='button' href='itms://itunes.apple.com/ja/app/idaily-pro/id390691023?mt=8#' onclick='this.blur();'><span>구입하기</span></a>",
+		"title_report": "<span>현재 통계수치</span>",
+		"title_user_voice": "<span>애용자들의 목소리</span> #idaily",
+		"title_made_possible": "<span>이 웹사이트는 이렇게 만들어 졌습니다.</span>",
 	}
 });
