@@ -168,8 +168,7 @@
         var title = $("#title").text() + " " + $("#desc").text() + " " + $("#amount").text();
         title = title.replace("*2", "");
         document.title = title;
-        $("#title").html(title);
-        console.log(document.title);
+        $("#title").html(title + " #idaily");
     }
     
     function loadGraphs(graph_url, graph_container) {
