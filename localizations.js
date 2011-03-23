@@ -1,13 +1,13 @@
 String.toLocaleString({
 	"en": {
 		"title": "Report: Japan Earthquake Fundraising Project through purchasing iDaily Pro",
-		"page_intro": "<p>An 8.9-magnitude earthquake hit off the east coast of Japan on Friday 11 March 2011. The quake triggered a 23-foot tsunami that battered Japan's coast, killing thousands and causing massive destruction to northeastern Japan.To raise funds for the victims of the disaster, the proceeds from <a href='http://itunes.apple.com/en/app/idaily-pro/id390691023?mt=8' class='high'>iDaily&nbsp;Pro</a> <strong>from 3.11 through 3.31</strong> will be donated to Japanese Red Cross Society.</p><p>We really need your help!</p><p>Let's come together to get them through this difficult time and help them rebuild as soon as possible.</p>",
+		"page_intro": "<p>An 8.9-magnitude earthquake hit off the east coast of Japan on Friday 11 March 2011. The quake triggered a 23-foot tsunami that battered Japan's coast, killing thousands and causing massive destruction to northeastern Japan.To raise funds for the victims of the disaster, all the proceeds <sup>*1</sup> from <a href='http://itunes.apple.com/en/app/idaily-pro/id390691023?mt=8' class='high'>iDaily&nbsp;Pro</a> <strong>from 3.11 through 3.31</strong> will be donated to Japanese Red Cross Society.</p><p>We really need your help!</p><p>Let's come together to get them through this difficult time and help them rebuild as soon as possible.</p>",
 		"page_sup": "<li>*1 This is the amount after Apple's 30% cut from the sales.</li><li>*2 Reports are generally available by 10:00 AM PST for the prior day or week</li>",
 		"target_amount": "Fundraising Goal：¥1,000,000 ",
 		"amount": "<span>¥</span> 618,526",
 		"desc": "Total amount since 3.21<sup>*2</sup>",
 		"support": "<p>Support us by click the button below <br/>if you also need iDaily Pro</p><a class='button' href='itms://itunes.apple.com/en/app/idaily-pro/id390691023?mt=8#' onclick='this.blur();'><span>Support</span></a>",
-		"title_report": "<span>Current Progress</span>",
+		"title_report": "Current <span>Progress</span>",
 		"title_user_voice": "<span>Voices</span> of Users #idaily",
 		"title_made_possible": "What Made This <span>Possible</span>",
 		"title_comments": "Your <span>Comments</span>",
