@@ -5,7 +5,7 @@ String.toLocaleString({
 		"page_sup": "<li>*1 This is the amount after Apple's 30% cut from the sales.</li><li>*2 Reports are generally available by 10:00 AM PST for the prior day or week</li>",
 		"target_amount": "Fundraising Goal: ¥1,000,000",
 		"amount": "729,599 <span>JPY</span>",
-		"desc": "Total amount raised since 3.22<sup>*2</sup>",
+		"desc": "Total amount raised by now (3.22<sup>*2</sup>)",
 		"support": "<p>Support us or you also need iDaily Pro,<br/>click the button below</p><a class='button' href='itms://itunes.apple.com/en/app/idaily-pro/id390691023?mt=8#' onclick='this.blur();'><span>Support</span></a>",
 		"title_report": "Current <span>Progress</span>",
 		"title_user_voice": "<span>Voices</span> of Users #idaily",
