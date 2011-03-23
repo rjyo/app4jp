@@ -15,7 +15,6 @@
 <script type="text/javascript" src="tempo/tempo.min.js"></script>
 <script type="text/javascript" src="l10n.js/l10n.min.js"></script>
 <script type="text/javascript" src="localizations.js"></script>
-<script type="text/javascript" src="smb/smb.js?v1"></script>
 </head>
 <body>
 <div id="top_shadow"></div>
@@ -41,10 +40,7 @@
                 <p>被災された方々を支援する為、弊社のiPhoneアプリ <a href="http://itunes.apple.com/jp/app/idaily-pro/id390691023?mt=8" class="high">iDaily&nbsp;Pro</a> の<strong>3月11日〜3月31日の売り上げを全額 <sup>*1</sup>日本赤十字(予定)に寄付する。</strong>僅かな力ながら、みなさまのご支援をお願いいたします。</p>
                 <p>被災し亡くなられた全ての方々の冥福と生きておられる方々の幸運をお祈りいたします。</p>
             </div>
-    	    <div id="social_buttons"><script type="text/javascript"><!--
-                smb.show(smb.twitter | smb.facebook);
-            //--></script>
-    	    </div>
+    	    <div id="social_buttons"></div>
             <ul class="l10n" id="page_sup">
                 <li>*1 Apple社により30%手数料相当額が控除された金額となります。</li>
                 <li>*2 毎日深夜にApple社の販売リポートにより前日までの数字を更新します。</li>
@@ -125,11 +121,8 @@
                 <li><a class="high" href="http://960.gs/">960.gs</a> by <a href="https://github.com/nathansmith">Nathan Smith</a>
                     <p>an effort to streamline web development workflow by providing commonly used dimensions...</p>
                 </li>
-                <li><a class="high" href="http://code.google.com/intl/en/apis/chart/">Google Chart API</a>
-                    <p>lets you dynamically generate charts with a URL string.</p>
-                </li>
-                <li><a class="high" href="http://cielquis.net/smb/">Social Media Buttons</a> by <a href="http://twitter.com/#!/tt_clown">tt_clown</a>
-                    <p>a way to insert Social Media Buttons with a line of very simple javascript. I had some style problems with Hatena and etc. though.</p>
+                <li><a class="high" href="http://stackoverflow.com/questions/282758/truncate-a-string-nicely-to-fit-within-a-given-pixel-width">truncate-a-string-by-pixel</a> method
+                    <p>let you truncate a string by a desired width and its CSS class. Automatically create an ABBR tag if truncated.</p>
                 </li>
             </ul>
         </div>
@@ -138,11 +131,11 @@
                 <li><a class="high" href="https://github.com/eligrey/l10n.js">l10n.js</a> by <a href="https://github.com/eligrey">Eli Grey</a>
                     <p>a JavaScript library that enables passive localization through native JavaScript methods.</p>
                 </li>
+                <li><a class="high" href="http://code.google.com/intl/en/apis/chart/">Google Chart API</a>
+                    <p>lets you dynamically generate charts with a URL string.</p>
+                </li>
                 <li><a class="high" href="https://github.com/malsup/corner">corner</a> by <a href="https://github.com/malsup">Mike Alsup</a>
                     <p>a wounderful jquery plugin to creating rounded corners on elements.</p>
-                </li>
-                <li><a class="high" href="http://stackoverflow.com/questions/282758/truncate-a-string-nicely-to-fit-within-a-given-pixel-width">truncate-a-string-by-pixel</a> method
-                    <p>let you truncate a string by a desired width and its CSS class. Automatically create an ABBR tag if truncated.</p>
                 </li>
             </ul>
         </div>
@@ -247,6 +240,32 @@
       return result;
     }
     
+    function get_facebook() {
+        var str = '<iframe src="http://www.facebook.com/plugins/like.php?href=' + encodeURIComponent(location.href);
+        str += '&amp;layout=button_count';
+        str += '&amp;show_faces=true';
+        str += '&amp;width=100';
+        str += '&amp;action=like';
+        str += '&amp;colorscheme=light';
+        str += '&amp;height=21"';
+        str += ' scrolling="no" frameborder="0" allowTransparency="true"';
+        str += ' style="border:none; overflow:hidden; width:100px; height:21px; position:relative; top:1px;"';
+        str += '></iframe>';
+
+        $('#social_buttons').append(str);
+    };
+    
+    function get_twitter() {
+    	var twitter_share = '<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="eduapps" data-lang="ja">Tweet</a>';
+
+        var js = $('<script />')
+            .attr('type', "text/javascript")
+            .attr('src', "http://platform.twitter.com/widgets.js");
+        
+        $('#social_buttons').append(twitter_share);
+        $('#social_buttons').append(js);
+    }
+
     $(document).ready(function() {
         $(".round_box").corner();
         
@@ -274,6 +293,10 @@
 			twitter.render(data.results);
 		});
 		
+		// increase page load speed in China where twitter and facebook are blocked
+		get_twitter();
+        $('#social_buttons').append('<span style="margin-left:7px;"></span>');
+		get_facebook();
 	});
 
 </script>
