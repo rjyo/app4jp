@@ -286,11 +286,15 @@
 		});
 		twitter.starting();
 		$.getJSON("http://search.twitter.com/search.json?q='idaily'&rpp=10&callback=?", function(data) {
+		    var usable_data = [];
 		    $.each(data.results, function(index, value) {
-		        value.text = replaceURLWithHTMLLinks(value.text);
-		        value.truncated_from_user = fitStringToWidth(value.from_user, 100, 'user');
+                if (value.text.length > 7) {
+    		        value.text = replaceURLWithHTMLLinks(value.text);
+    		        value.truncated_from_user = fitStringToWidth(value.from_user, 100, 'user');
+    		        usable_data.push(value);
+		        }
 		    });
-			twitter.render(data.results);
+			twitter.render(usable_data);
 		});
 		
 		// increase page load speed in China where twitter and facebook are blocked
