@@ -44,7 +44,7 @@ String.toLocaleString({
 		"page_sup": "<li>*1 애플사로부터 30% 수수료를 덜어낸후의 금액입니다.</li><li>*2 전날 수입의 금액입니다.</li>",
 		"target_amount": "목표기부금：1,000,000엔",
 		"amount": "618,526<span>엔</span>",
-		"desc": "3월21부터 현재까지의 <sup>*2</sup>성금",
+		"desc": "3월21일부터 현재까지의 <sup>*2</sup>성금",
 		"support": "<p>iDaily Pro를 구입하시려면 아래버튼을 클릭하십시오.</p><a class='button' href='itms://itunes.apple.com/ja/app/idaily-pro/id390691023?mt=8#' onclick='this.blur();'><span>구입하기</span></a>",
 		"title_report": "현재 <span>통계수치</span>",
 		"title_user_voice": "애용자들의 <span>목소리</span> #idaily",
