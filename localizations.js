@@ -4,7 +4,7 @@ String.toLocaleString({
 		"page_intro": "<p>An 8.9-magnitude earthquake hit off the east coast of Japan on Friday 11 March 2011. The quake triggered a 23-foot tsunami that battered Japan's coast, killing thousands and causing massive destruction to northeastern Japan.To raise funds for the victims of the disaster, all the proceeds <sup>*1</sup> from <a href='http://itunes.apple.com/en/app/idaily-pro/id390691023?mt=8' class='high'>iDaily&nbsp;Pro</a> <strong>from 3.11 through 3.31</strong> will be donated to Japanese Red Cross Society.</p><p>We really need your help!</p><p>Let's come together to get them through this difficult time and help them rebuild as soon as possible.</p>",
 		"page_sup": "<li>*1 This is the amount after Apple's 30% cut from the sales.</li><li>*2 Reports are generally available by 10:00 AM PST for the prior day or week</li>",
 		"target_amount": "Fundraising Goal: ¥1,000,000",
-		"amount": "1,002,591 <span>¥</span>",
+		"amount": "1,002,591<span>JPY</span>",
 		"desc": "Total amount raised by now (3.27<sup>*2</sup>)",
 		"support": "<p>Support us or you also need iDaily Pro,<br/>click the button below</p><a class='button' href='itms://itunes.apple.com/en/app/idaily-pro/id390691023?mt=8#' onclick='this.blur();'><span>Support</span></a>",
 		"title_report": "Current <span>Progress</span>",
