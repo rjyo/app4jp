@@ -14,7 +14,7 @@ String.toLocaleString({
 	},
 	"ja": {
 		"title": "iDaily Proの東北関東大震災の募金プロジェクトの終了報告",
-		"page_intro": "<p>3月11日 午後2時46分頃、三陸沖を震源とする非常に強い地震が発生し、これにより東北地方を中心として広い範囲で大きな被害が生じております。</p><p>被災された方々を支援する為、弊社のiPhoneアプリ <a href='http://itunes.apple.com/jp/app/idaily-pro/id390691023?mt=8' class='high'>iDaily&nbsp;Pro</a> の<strong>3月11日〜3月31日の売り上げの全額1,145,511円 <sup>*1</sup>を<a href='http://www.jrc.or.jp/contribute/help/l4/Vcms4_00002074.html'>日本赤十字社</a>に寄付しました。</strong>みなさまのご支援を心から感謝しております。</p><p>被災し亡くなられた全ての方々の冥福と生きておられる方々の幸運をお祈りいたします。</p>",
+		"page_intro": "<p>3月11日 午後2時46分頃、三陸沖を震源とする非常に強い地震が発生し、これにより東北地方を中心として広い範囲で大きな被害が生じております。</p><p>被災された方々を支援する為、弊社のiPhoneアプリ <a href='http://itunes.apple.com/jp/app/idaily-pro/id390691023?mt=8' class='high'>iDaily&nbsp;Pro</a> の<strong>3月11日〜3月31日の売り上げ全額の1,145,511円 <sup>*1</sup>を<a href='http://www.jrc.or.jp/contribute/help/l4/Vcms4_00002074.html'>日本赤十字社</a>に寄付しました。</strong>みなさまのご支援を心から感謝しております。</p><p>被災し亡くなられた全ての方々の冥福と生きておられる方々の幸運をお祈りいたします。</p>",
 		"page_sup": "<li>*1 Apple社により30%手数料相当額を控除された後の金額となります。</li>",
 		"target_amount": "目標金額：1,000,000円",
 		"amount": "1,145,511<span>円</span>",
