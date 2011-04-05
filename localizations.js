@@ -1,7 +1,7 @@
 String.toLocaleString({
 	"en": {
 		"title": "Report: Japan Earthquake Fundraising Project through purchasing iDaily Pro",
-		"page_intro": "<p>An 8.9-magnitude earthquake hit off the east coast of Japan on Friday 11 March 2011. The quake triggered a 23-foot tsunami that battered Japan's coast, killing thousands and causing massive destruction to northeastern Japan.To raise funds for the victims of the disaster, all the proceeds <sup>*1</sup> from <a href='http://itunes.apple.com/en/app/idaily-pro/id390691023?mt=8' class='high'>iDaily&nbsp;Pro</a> <strong>from 3.11 through 3.31</strong> have been donated to <a href='http://www.jrc.or.jp/contribute/help/l4/Vcms4_00002074.html'>Japanese Red Cross Society</a>.</p><p>We really need your help!</p><p>Let's come together to get them through this difficult time and help them rebuild as soon as possible.</p>",
+		"page_intro": "<p>An 8.9-magnitude earthquake hit off the east coast of Japan on Friday 11 March 2011. The quake triggered a 23-foot tsunami that battered Japan's coast, killing thousands and causing massive destruction to northeastern Japan. To raise funds for the victims of the disaster, all the proceeds　(JPY 1,145,511 <sup>*1</sup>) from <a href='http://itunes.apple.com/en/app/idaily-pro/id390691023?mt=8' class='high'>iDaily&nbsp;Pro</a> <strong>from 3.11 through 3.31</strong> have been donated to <a href='http://www.jrc.or.jp/contribute/help/l4/Vcms4_00002074.html'>Japanese Red Cross Society</a>.</p><p>Thank you all for your help!</p>",
 		"page_sup": "<li>*1 This is the amount after Apple's 30% cut from the sales.</li>",
 		"target_amount": "Fundraising Goal: ¥1,000,000",
 		"amount": "1,145,511<span>JPY</span>",
@@ -14,7 +14,7 @@ String.toLocaleString({
 	},
 	"ja": {
 		"title": "iDaily Proの東北関東大震災の募金プロジェクトの終了報告",
-		"page_intro": "<p>3月11日 午後2時46分頃、三陸沖を震源とする非常に強い地震が発生し、これにより東北地方を中心として広い範囲で大きな被害が生じております。</p><p>被災された方々を支援する為、弊社のiPhoneアプリ <a href='http://itunes.apple.com/jp/app/idaily-pro/id390691023?mt=8' class='high'>iDaily&nbsp;Pro</a> の<strong>3月11日〜3月31日の売り上げを全額 <sup>*1</sup><a href='http://www.jrc.or.jp/contribute/help/l4/Vcms4_00002074.html'>日本赤十字社</a>に寄付しました。</strong>僅かな力ながら、みなさまのご支援をお願いいたします。</p><p>被災し亡くなられた全ての方々の冥福と生きておられる方々の幸運をお祈りいたします。</p>",
+		"page_intro": "<p>3月11日 午後2時46分頃、三陸沖を震源とする非常に強い地震が発生し、これにより東北地方を中心として広い範囲で大きな被害が生じております。</p><p>被災された方々を支援する為、弊社のiPhoneアプリ <a href='http://itunes.apple.com/jp/app/idaily-pro/id390691023?mt=8' class='high'>iDaily&nbsp;Pro</a> の<strong>3月11日〜3月31日の売り上げの全額1,145,511円 <sup>*1</sup>を<a href='http://www.jrc.or.jp/contribute/help/l4/Vcms4_00002074.html'>日本赤十字社</a>に寄付しました。</strong>みなさまのご支援を心から感謝しております。</p><p>被災し亡くなられた全ての方々の冥福と生きておられる方々の幸運をお祈りいたします。</p>",
 		"page_sup": "<li>*1 Apple社により30%手数料相当額を控除された後の金額となります。</li>",
 		"target_amount": "目標金額：1,000,000円",
 		"amount": "1,145,511<span>円</span>",
@@ -27,7 +27,7 @@ String.toLocaleString({
 	},
 	"zh_CN": {
 		"title": "iDaily Pro - 日本东北大地震募捐统计报告",
-		"page_intro": "<p>2011年3月11日14时46分发生的日本东北地方太平洋近海地震及其引发的海啸已造成东北部沿岸大范围的破坏和伤亡。</p><p>为了支援受灾地区，我们已将3月11日开始到3月底的 <a href='http://itunes.apple.com/cn/app/idaily-pro/id390691023?mt=8' class='high'>iDaily&nbsp;Pro</a> 的收入<sup>*1</sup>全额捐给<a href='http://www.jrc.or.jp/contribute/help/l4/Vcms4_00002074.html'>日本红十字会</a>，虽然相比地震对人们造成的巨大的财产和心灵上的打击，我们的捐款微不足道，但希望灾区的人们能感受到我们的心意。</p><p>让我们为地震中遇难的人们祈祷，为幸存的人们祝福！",
+		"page_intro": "<p>2011年3月11日14时46分发生的日本东北地方太平洋近海地震及其引发的海啸已造成东北部沿岸大范围的破坏和伤亡。</p><p>为了支援受灾地区，我们已将3月11日开始到3月底的 <a href='http://itunes.apple.com/cn/app/idaily-pro/id390691023?mt=8' class='high'>iDaily&nbsp;Pro</a> 的收入1,145,511日元<sup>*1</sup>全额捐给<a href='http://www.jrc.or.jp/contribute/help/l4/Vcms4_00002074.html'>日本红十字会</a>，虽然相比地震对人们造成的巨大的财产和心灵上的打击，我们的捐款微不足道，但希望灾区的人们能感受到我们的心意。</p><p>让我们为地震中遇难的人们祈祷，为幸存的人们祝福！",
 		"page_sup": "<li>*1 扣除AppStore的30%手续费以后的金额。</li>",
 		"target_amount": "目标募捐金额：1,000,000日元",
 		"amount": "1,145,511<span>日元</span>",
